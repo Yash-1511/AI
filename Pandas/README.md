@@ -28,9 +28,9 @@ import pandas as pd
 - one Dimensional Array
 
 ```py
-data = ["yash","parth"]
-df = pd.Series(data)
-df
+name = ["yash","parth","jatin"]
+name_series = pd.Series(data)
+name_series
 ```
 
 # Pandas DataFrame
@@ -52,12 +52,18 @@ df
 # Read CSV
 
 - A simple way to store big data sets is to use CSV files (comma separated files).
+- importing csvs
 
 ```py
 df = pd.read_csv("weather.csv")
 df
 ```
 
+# Export CSV
+
+```py
+df.to_csv("filename.csv");
+```
 # Read JSON
 
 - Big data sets are often stored, or extracted as JSON.

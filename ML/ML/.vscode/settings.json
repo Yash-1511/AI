@@ -1,0 +1,13 @@
+{
+    "editor.semanticTokenColorCustomizations": {
+        "comments": "#d4922f"
+    },
+    "editor.tokenColorCustomizations": {
+    "[Community Material Theme Darker High Contrast]": {
+        "comments": "#b3ff00"
+    },
+    "[JellyFish]": {
+        "comments": "#b3ff00"
+    }
+    }
+}
